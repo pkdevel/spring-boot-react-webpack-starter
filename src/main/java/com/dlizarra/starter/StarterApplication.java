@@ -5,8 +5,8 @@ import org.springframework.core.env.ConfigurableEnvironment;
 
 public class StarterApplication extends SpringApplication {
 
-	public StarterApplication(final Class<?> clazz) {
-		super(clazz);
+	public StarterApplication(final Class<?> type) {
+		super(type);
 	}
 
 	@Override

@@ -158,6 +158,9 @@
 						<goals>
 							<goal>webpack</goal>
 						</goals>
+						<configuration>
+							<arguments>--config ./webpack/webpack.config.js --env.env=dev</arguments>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
