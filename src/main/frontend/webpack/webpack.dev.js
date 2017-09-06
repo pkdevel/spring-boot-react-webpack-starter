@@ -22,7 +22,7 @@ module.exports = {
         contentBase: commonPaths.contentBasePath, // match the output path
         publicPath: '/', // match the output `publicPath`
         //host:"0.0.0.0", // Enable to integrate with Docker
-        port: 3000,
+        port: 9000,
         proxy: {
             '/': {
                 target: 'http://localhost:8080',
@@ -30,7 +30,7 @@ module.exports = {
                 prependPath: false
             }
         },
-        publicPath: 'http://localhost:3000/',
+        publicPath: 'http://localhost:9000/',
         historyApiFallback: true,
         // All the stats options here: https://webpack.js.org/configuration/stats/
         stats: {
