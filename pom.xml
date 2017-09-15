@@ -101,6 +101,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				
 			</plugin>
 
 			<!-- Cobertura -->
@@ -124,6 +125,7 @@
 					<check/>
 				</configuration>
 			</plugin>
+
 			<!-- Frontend -->
 			<plugin>
 				<groupId>com.github.eirslett</groupId>
@@ -159,7 +161,7 @@
 							<goal>webpack</goal>
 						</goals>
 						<configuration>
-							<arguments>--config ./webpack/webpack.config.js --env.env=dev --watch</arguments>
+							<arguments>--config ./webpack/webpack.config.js --env.env=dev</arguments>
 						</configuration>
 					</execution>
 				</executions>
